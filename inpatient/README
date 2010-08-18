@@ -3,9 +3,9 @@ INPATIENT SYSTEM
 
 This is is a sample project, demonstrating how to use Prawn gem and Prawnto plugin to produce elegant PDF documents in a Ruby on Rails project.
 
-According to <a href="http://github.com/sandal">Gregory Brown</a>, <a href="http://github.com/sandal/prawn">Prawn</a> is a PDF writing library for Ruby designed to be tiny, fast, and nimble, just like the majestic sea creature.
+According to Gregory Brown (http://github.com/sandal), Prawn (http://github.com/sandal/prawn) is a PDF writing library for Ruby designed to be tiny, fast, and nimble, just like the majestic sea creature.
 
-Despite that Prawn library provides robust PDF creation functionality, it is not specifically targeted toward Ruby on Rails. For example, Prawn lacks of ability to use CSS & HTML for easy styling, which is something most web developers are much more comfortable with from experience. In response to this, <a href="http://github.com/thorny-sun">thorny-sun</a> developed <a href="http://github.com/thorny-sun/prawnto">Prawnto </a>, a rails plugin that provides a Rails application easy access to prawn library. The main advantage of Prawnto is that it provides a template handler that is accessible through a .prawn extension. The .prawn template helps render PDF documents as Rails views.
+Despite that Prawn library provides robust PDF creation functionality, it is not specifically targeted toward Ruby on Rails. For example, Prawn lacks of ability to use CSS & HTML for easy styling, which is something most web developers are much more comfortable with from experience. In response to this, thorny-sun(http://github.com/thorny-sun) developed Prawnto (http://github.com/thorny-sun/prawnto), a rails plugin that provides a Rails application easy access to prawn library. The main advantage of Prawnto is that it provides a template handler that is accessible through a .prawn extension. The .prawn template helps render PDF documents as Rails views.
 
 * Comments, suggestions and revisions are welcome.
 
