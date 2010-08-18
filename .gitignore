@@ -10,4 +10,8 @@ development_structure.sql
 schema.rb
 *~
 mockups
+*.sqlite3
+*.log
+log/
+log/development.log
 nbproject
