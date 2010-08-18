@@ -1,0 +1,20 @@
+RUBY AND RUBY ON RAILS SAMPLE PROJECTS
+--------------------------------------
+
+I noted that there are cool Ruby and Ruby on Rails stuff out there that are not used because most people do not know where to start from. This project aims at providing quick introductions to various Ruby and Ruby on Rails technologies, especially gems and plugins. I would like to use this space as a platform for introducing some of the cool technologies that are available. 
+
+Notice that these sub-projects are just samples, and hence they are not fully functional for use in big projects. However, the ideas may be borrowed and be used elsewhere, where need arises.
+
+Check out for associated tutorials on http://edceekays.blogspot.com/. Specific links to tutorials are provided in README under each sub-project.
+
+* Comments, suggestions and revisions are welcome.
+
+LINCENSE
+--------
+
+The software packages are provided 'as are', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
+
+COPYRIGHT
+---------
+
+Copyright © Edmond C. Kachale <ceekays> 2010
