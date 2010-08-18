@@ -17,11 +17,18 @@ pdf.indent 20 do #induce some left margin
       ]
   end
 
+  # create customized headers
+  table_headers = [ "Admission #", "Patient Name", "Gender", "Ward", "Date of Admission"].map do |header|
+    Prawn::Table::Cell.new( :text => header,:font_size =>10, :font_style => :bold)
+  end
   pdf.move_down 15
   pdf.table patients,
-    :headers => [ "Admission #", "Patient Name", "Gender", "Ward", "Date of Admission"],
+    :headers => table_headers,
+    :header_text_color => "0000FF",
+    :header_color => "CCCCCC",
     :border_style => :grid,
     :font_size => 10,
+    :width =>350,
     :position => :center
 
   pdf.move_down 15
