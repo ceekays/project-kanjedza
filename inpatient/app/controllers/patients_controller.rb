@@ -26,9 +26,6 @@ class PatientsController < ApplicationController
   # GET /patients/new.xml
   def new
     @patient = Patient.new
-    
-    # automatically generate patient's admission number
-    @patient.generate_admission_number
 
     respond_to do |format|
       format.html # new.html.erb
@@ -45,6 +42,9 @@ class PatientsController < ApplicationController
   # POST /patients.xml
   def create
     @patient = Patient.new(params[:patient])
+    
+    # automatically generate patient's admission number
+    @patient.generate_admission_number
 
     respond_to do |format|
       if @patient.save
